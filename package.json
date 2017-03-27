@@ -47,7 +47,6 @@
     "run-sequence": "^1.0.2"
   },
   "scripts": {
-    "postinstall": "./node_modules/.bin/bower install",
     "production": "./node_modules/.bin/gulp build --env production --banner",
     "development": "./node_modules/.bin/gulp build --env development --banner",
     "release": "npm run development && npm run production",
